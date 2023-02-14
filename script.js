@@ -8,7 +8,7 @@ $(document).ready(function() {
             );
         $(".child").css(
             "background-color", "white"
-        )
+        );
     });
     $("#licht").click(function() {
         $(".main").css(
@@ -16,7 +16,7 @@ $(document).ready(function() {
             );
         $(".child").css(
             "background-color", "grey"
-        )
+        );
     });
     $("#berekening").click(function(){
         var a = $("#a").val();
@@ -24,6 +24,6 @@ $(document).ready(function() {
         var c = a*b;
         $("#antwoord").text(
            c
-        )
-    })
+        );
+    });
 });
